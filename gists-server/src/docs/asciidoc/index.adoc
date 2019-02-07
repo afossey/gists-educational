@@ -1,0 +1,19 @@
+= Reference Documentation
+For Developers
+
+This is a sample of documentation for the project "Gists Educational".
+
+include::{snippets}/SouvenirsTest_validate_get_all_gists/http-request.adoc[]
+
+=>
+
+include::{snippets}/SouvenirsTest_validate_get_all_gists/http-response.adoc[]
+
+
+
+
+include::{snippets}/SouvenirsTest_validate_get_a_gist/http-request.adoc[]
+
+=>
+
+include::{snippets}/SouvenirsTest_validate_get_a_gist/http-response.adoc[]

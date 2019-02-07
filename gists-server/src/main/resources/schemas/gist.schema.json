@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "gist.schema.json",
+  "title": "Gist",
+  "description": "A basic representation of a Gist",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier of the Gist",
+      "type": "string"
+    },
+    "name": {
+      "description": "the name of the Gist",
+      "type": "string"
+    }
+  },
+  "required": ["name"]
+}
