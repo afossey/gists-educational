@@ -13,12 +13,12 @@ Stack :
 * Embedded Mongo
 * Docker
 
-Features :
-* Create React App "build" task linked to Gradle workflow (could have added the "test" task as well)
-* Examples of tests (sometime pointless) on every layer with JUnit, Mockito, RestAssuredMockMvc, AssertJ
+"Features" :
+* Create React App "build" task linked to Gradle workflow
+* Examples of tests on every layer with JUnit, Mockito, RestAssuredMockMvc, AssertJ
 * Auto-generation of RestDocs from Contract tests
 * Auto-generation of Open API Spec from RestDocs
-* Use immutable object between sources of truth (user input <-> database)
+* Immutable objects
 * Validation against a simple JSON Schema
 * Node, Yarn and Gradle installed locally
 * Docker builder
